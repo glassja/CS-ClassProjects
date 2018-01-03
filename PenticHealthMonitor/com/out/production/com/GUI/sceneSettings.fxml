@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="450.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.sceneSettingsController">
+   <children>
+      <Label alignment="CENTER" layoutX="161.0" layoutY="85.0" text="Settings" textFill="#fffbfb">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonSceneUp" alignment="TOP_CENTER" layoutX="203.0" layoutY="14.0" mnemonicParsing="false" onAction="#shiftSceneUp" style="-fx-background-color: black;" text="↑" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Button fx:id="FacReset" layoutX="154.0" layoutY="500.0" mnemonicParsing="false" onAction="#FactoryReset" prefHeight="61.0" prefWidth="142.0" style="-fx-background-color: black;" text="Factory Reset" textFill="#fffbfb">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

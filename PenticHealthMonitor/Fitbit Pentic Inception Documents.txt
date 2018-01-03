@@ -1,0 +1,426 @@
+﻿Vision
+
+
+Introduction:
+        
+        We envision a wearable activity tracking watch that provides more than just the current moment’s data. We envision a Fitbit that shows the user graphs of their activity over the past 5 days. Furthermore, the Fitbit will be integrated with a web/mobile app that will feature more robust analysis and tracking. We envision the Fitbit Pentic.
+
+
+Positioning
+
+
+        Business Opportunity:
+This newest Fitbit adds the ability to visualize data collected over a timespan of up to five days instead of just an hour or a single day. In addition, since all Fitbits sync to the general Fitbit platform, the market size is already well established and growing. Fitbit can also sync to other third-party apps and platforms which further increases the size of the market.
+
+
+        Problem Statement:
+Current Fitbits and related devices are great for ‘in the moment’ tracking of a user’s activity, but generally do not provide the ability to visualize data beyond an hour or a day. This forces the user to constantly sync their device(s) to a mobile/web app which places a significant drain on both the device’s and, in the case of a mobile app, the phone’s battery. Furthermore, the lack of ability to quickly and easily visualize activity makes it difficult for the user to see trends and patterns in their activity.
+
+
+        Product Position Statement:
+This device is for anyone that wants to track and visualize their daily activity. This goes beyond the current Fitbits available by including visualization of five days of activity data. This expanded time frame allows the user to see and utilize trends and patterns in their day to day activity.
+
+
+        Alternatives and Competition:
+
+
+        Fitbit:
+                Fitbit Flex2
+                Fitbit Alta
+                Fitbit Alta HR
+                Fitbit Charge 2
+                Fitbit Blaze
+                Fitbit Ionic
+        Garmin:
+                Vivosport
+                Vivosmart 3
+                Vivofit 3
+                Vivoactive HR
+                Vivosmart HR+
+                Vivomove HR
+                Forerunner Series (35, 235, 735XT, 935)
+
+
+Stakeholder Descriptions
+
+
+Market Demographics:
+17% of Americans over 65 currently use wearable activity/health monitors.[1]
+48% of Americans over 65 are willing to use them.1
+20% of Americans under 65 currently use wearable activity/health monitors.1
+47% of Americans under 65 are willing to use them.1
+
+
+User Summary:
+The user will have now have the ability to see trends and patterns in their activity and health data. This will empower them to take even greater control over their health by giving them new tools to assess themselves with. They’ll be able to see anomalies in their patterns and determine if they were due to behavioral changes or something else.
+
+
+        Key High-Level Goals and Problems of the Stakeholders:
+        
+High-Level Goal
+	Priority
+	Problems and Concerns
+	Current Solutions
+	Continuous activity and health tracking
+	High
+	* Battery life
+* Consistent data collection, minimize holes and gaps
+* Minimize memory footprint of the data
+
+
+	Existing products provide good activity tracking capability but the data may be oversized and under optimized. Additionally, battery life can be improved.
+	Storage of 5 days of data
+	High
+	* Limited memory space
+* Data needs to be secure
+* Data needs to be quickly accessible
+	Current products reduce the amount of data that can be stored and accessed on the devices instead of increasing their internal memory. Current devices are relatively secure and security support by the Fitbit platform is adequate.
+	Intuitive UI
+	High
+	* More features means more screens to navigate through
+* The screens must be well organized and easy to navigate
+* The touch/button interface must be intuitive and natural to use.
+	Current products have well designed UIs that can be used as a model. The addition of a few more screens should not negatively impact the user experience.
+	
+
+User-Level Goals:
+
+
+* User: track and monitor activity and health data, visualize patterns and trends in the data.
+* HR Sensor: sends HR data to Data System through Processor
+* Accelerometer: sends step count data to Data System through Processor
+* Data System: obtain data from HR sensor and accelerometer, process data for analysis
+* Display: display appropriate screen based on Wearer input, sleep, wake when prompted
+* Processor: streamlines and regulates data transactions, processes analysis of data, sends sleep and wake signals, processes Wearer inputs, sends correct screen information to Display.
+
+
+User Environment:
+                Anywhere.
+
+
+Product Overview
+
+
+        Product Perspective:
+The Fitbit Pentic is a wearable health and activity tracking watch. It is designed to be worn on the wrist as continuously as possible. It will work anywhere and everywhere as it does not require any sort of active Wi-fi or Bluetooth signal to collect data. The Pentic collects and calculates HR, daily step count, calories burned, and weight data. As the data points are collected they are aggregated into graphs that show the user the data trends for each category. The data displays include the current moment’s/day’s data, the past hour of heart rate data, the previous day’s data for all fields, and the previous five days’ data for all fields. In addition, the Pentic can keep track of a daily step count goal that can be set by the user.
+
+
+Summary of Benefits:
+
+
+Supporting Feature
+	Stakeholder Benefit
+	Functionally, the Pentic will provide all of the basic functions of any other wearable activity tracking device. HR, steps, calorie calculation, digital watch, activity goals. The Pentic will extend this functionality with extended data analysis on the device itself.
+	Small, wearable activity tracking watch with the ability to display activity and health data collected over time for clearer discovery of patterns and trends.
+	Automatic data protection
+	User won’t have to worry about the device being hacked and their data stolen or their device commandeered.
+	User defined goals
+	User will be able to customize their experience with the device.
+	
+
+Assumptions and Dependencies:
+        User wants to interact with and use the device. 
+        User is interested in the latest in Fitbit devices.
+        User is generally healthy without conditions that will impede the collection of data such as severe heart arrhythmias.
+        
+Cost and Pricing:
+        Cost of development TBD
+        Goal pricing for device: ~$200.00
+Summary of System Features:
+* Digital watch
+* Heart Rate monitor
+* Pedometer
+* Calculation of Calories burned
+* Daily Step goal
+* Intuitive touch interface
+* Display of real time data
+* Display of 1-hour to 5 day historic data
+* Data sync to long term web/mobile app
+
+
+Other Requirements and Constraints:
+        See the Supplementary Specification and use cases.
+
+
+Use Cases
+
+
+Use Case UC0: Initial User Setup
+Scope: Fitbit Pentic System
+Level: User Goal
+Primary Actor: User
+Stakeholders and Interests:
+* User: Wants accurate data collection
+* Company: Wants accurate data collection and User satisfaction
+* Processor: Needs initial values to give to Data System
+* Data System: Needs initial values to use for calculating Calories burned and distance walked 
+Preconditions:
+        Device is charged and has registered the first screen interaction from the User.
+        User is interacting with the device.
+Success Guarantee: User’s height, age, weight, step goal, time display mode, and time zone are set in the devices memory.
+Main Success Scenario:
+1. User touches the screen with the watch on.
+2. Device Wakes and enters initial setup mode.
+3. Display prompts User to enter their age.
+4. User enters their age and taps to confirm.
+5. Processor sends age to Data System.
+6. Data System stores age in an InitialValues file.
+7. Display prompts User to enter their height.
+8. User enters their height and taps to confirm.
+9. Processor send height to Data System.
+10. Data System stores height in an InitialValues file.
+11. Display prompts User to enter their weight.
+12. User enters their weight and taps to confirm.
+13. Processor sends weight to Data System.
+14. Data System stores weight in an InitialValues file.
+15. Display prompts User for a daily step goal.
+16. User enters their desired daily step goal.
+17. Processor sends daily step goal to Data System.
+18. Data System stores the daily step goal in a Preferences file.
+19. Display prompts User for time format option.
+20. User selects 12h or 24h format and taps to confirm.
+21. Processors send the appropriate signal to Data System.
+22. Data System stores the time format in a Preferences file.
+23. Display prompts User for their time zone as +/- UTC
+24. User enters their time zone value and taps to confirm
+25. Processor sends timezone to Data System.
+26. Data System stores time zone in a Preferences file.
+27. Processor refreshes the device with the new Preferences file.
+28. Processor and Data System begin collecting sensor data and storing it for analysis.
+29. Data System begins calibrating and running analysis of the data coming in.
+1. The user enters an initial preference incorrectly.
+   1. User can wait for setup to restart after 5 minutes
+   2. Or User can finish setup and then navigate to settings menu
+   3. In settings menu, UsExtensions:
+1. The device registers more than 5 minutes of inactivity
+   1. The device goes to sleep
+   2. When the User interacts with the device again, set-up begins again from the start
+1. The device battery dies during setup
+   1. The Display prompts User to charge the device
+   2. Processor enters the device into Deep Sleep mode
+   3. Once charged, interaction by the User wakes the device and setup restarts
+1. The user enters an initial value incorrectly, ie. height, weight, or age
+   1. User can wait for setup to restart after 5 minutes
+   2. Or user can finish setup and then factory reset the device from the settings menu and redo setup
+   3. er can change the preferences
+   4. Once the settings have been changed, Processor refreshes the Display with the new settings
+
+
+Use Case UC1: Visualize Health and Activity Data
+Scope: Fitbit Pentic System
+Level: User goal
+Primary Actor: Display
+Stakeholders and Interests:
+* User: Wants accurate storage and analysis of the data as well as fast retrieval and display of the various graphics. Wants data kept private and secure.
+* Company: Wants to accurately monitor activity data and store it securely on the user’s device. Wants to ensure that the device tolerates gaps in the data when the user is not wearing the device. Wants to ensure that the functions do not degrade battery life too severely.
+* Display: Wants to quickly produce accurate graphics for the User to see
+* Processor: Wants to optimize resource management during the calculation process.
+Preconditions: The device is charged and the user is wearing it.
+Success Guarantee:Heart rate, step count, weight, Calories burned, and distance walked have all been accurately recorded or calculated for 5 or more days. The data is accurately accessed when creating the graphs. The user can seamlessly navigate between the various data screens.
+Main Success Scenario: 
+1. User wakes the screen on the device.
+2. User swipes to navigate to the screen for the desired data type: HR, Steps/distance, or Calories/weight
+3. Display informs Processor which category has been selected
+4. Processor generates or retrieves the specified graphs and pages
+5. User taps screen to enter navigation for data screens, first screen is current day’s data.
+6. User swipes to navigate to other screens, screens display in order of increasing time period. ie. Today, Yesterday, 5 days
+7. Screen sleeps after 1.5 minutes of inactivity
+Extensions: 
+*a. At any time, device battery reaches critical low:
+To ensure continuity of the data points, ensure that all data storage operations are atomic. To prevent power loss, display warnings to user before critical lows are reached.
+                1. Device displays low battery screen and sleeps screen after 30 seconds.
+                2. Device stores current data points and state information to memory for restart
+                3. Device enters Deep Sleep mode.
+For more information, see UC9: Emergency power loss shut down.
+        *b. Less than 5 days of data have been recorded
+1. Processor retrieves as much data as it can
+2. Processor generates graphs and pages, as specified, with the limited data.
+   1. The graphs produced will simply be truncated
+
+
+*UC1a: Display current data for:
+   * HR
+   * Step Count
+   * Calories Burned
+   * Distance walked
+
+
+*UC1b: Display the past hour of HR data
+
+
+*UC1c: Display the previous day of:
+   * HR
+   * Step Count
+   * Calories
+   * Distance walked
+
+
+*UC1d: Display the past 5 days of:
+   * HR
+   * Steps
+   * Calories
+   * Distance walked
+
+
+*UC1e: Display 3 months of weight data
+UC2: Monitor and track HR data
+
+
+UC3: Monitor and track Step count data
+
+
+UC4: Calculate and track Calories burned
+
+
+UC5: Track and record weight by input up to 3 months
+
+
+UC6: Function as a watch
+* Digital time
+* Date
+* Battery display
+
+
+UC7: Display screens
+*UC7a Home screen
+*UC7b Heart Rate Home
+*UC7c Step Count Home
+*UC7d Calories Burned Home
+*UC7e Distance walked
+
+
+UC8: Calculate and track distance walked
+
+
+UC9: Emergency Power loss shut down
+
+
+
+
+
+
+
+
+________________
+
+
+Supplementary Specifications
+*a. User data should be protected from unwanted access.
+         1. Data transactions are atomic.
+         2. Implementation of secure networking protocols
+*b. Interface
+         1.Small touch screen watch
+         2.Swipe and touch button interfaces on the screen
+         3. Small screen = hard to read/see graphics
+*c. Hardware
+                      1. Small touchscreen, wrist based heart monitor, accelerometer/pedometer
+
+
+
+
+
+
+________________
+
+
+Risk List 
+
+
+Schedule Risk:
+Time Constraints:
+        The limited amount of time available in the semester creates problems for
+ developers when estimating development time. 
+
+
+Possible solution: Start early, stick to a schedule and be mindful of deadlines.
+        
+
+
+Technical Risk:
+
+
+        Lacking Actual Hardware: relying on theory alone.
+        Because the actual hardware of the device is not available a lot of the input data will be simulated.                  
+
+
+
+
+Compromise Design: sacrificing design due to limitations.
+        Limiting features due to limitations based on time or technology.
+
+
+        Possible Solution: Be realistic when designing features.
+
+
+Business Risk:
+
+
+        Market Saturation: current market has established brands with reliable devices.
+
+
+                Possible Solution: Incorporate unique features that differentiate the product from the rest.
+
+
+
+
+
+
+
+
+________________
+
+
+Glossary
+
+
+UI (User Interface): Component of the fitness device’s software that will display data collected to the user.
+
+
+Touch Interface: High-level component of the UI that allows the user to interact through touch- i.e., a tap on the screen or swipe of the finger. 
+
+
+Initial Values: Values input by the User during setup to provide age, height, weight, and step goal for the device to use when calculating Calories burned, distance walked, steps remaining, and a baseline value for weight.
+
+
+HR (Heart Rate): Measured in bpm (beats per minute), this measurement can be used by the fitness tracker to garner a more accurate assessment of physical activity, which in turn will lead to a closer estimate of calories burned. Distinguish between resting and active.
+
+
+Deep Sleep: an ultra low power state for the device where all sensors and UI elements are shut off and only the bare minimum of necessary functions continue running in the background. The state the device is delivered in originally and the state the device enters when the battery dies.
+
+
+Sleep: a low power state for the fitness device that allows for optimal power usage. Necessary sensors remain active while the display and UI elements are temporarily disabled.
+
+
+Wake: a high power state in which the UI displays to the user.
+
+
+Calorie: A unit (kilocalorie) that describes the energy contents of food and drink ingested by the user. Ideally, the user tracks and submits this data. Tracking caloric intake in tandem with recording an accurate measurement of physical activity through the fitness device will lead to an ideal fitness scenario.
+
+
+Steps:  Depending upon the user’s weight, height, and stride length each step can be converted into calories burned. Primary method of estimating physical activity.
+
+
+Activity Data: All measurements recorded by the device- i.e., HR, steps, calculated calorie estimation.
+
+
+Graph: In line or bar form to display activity data collected over a five day period.
+
+
+Step Goal: The number of steps the User is trying to log each day with the device.
+
+
+Fitness Profile: The culmination of the activity data, fitness goals, and progress report of the user.
+
+
+Accelerometer: A device used to measure acceleration forces and movement data
+
+
+Memory Footprint: The amount of memory the software uses while running.
+
+
+
+
+
+
+________________
+[1] Data obtained from: https://www.forbes.com/sites/brucejapsen/2016/07/11/wearable-fitness-devices-attract-more-than-young-healthy/#1106c22057df

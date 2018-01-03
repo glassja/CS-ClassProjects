@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="450.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.sceneDistanceTodayController">
+    <children>
+        <Button fx:id="buttonSceneRight" alignment="CENTER_RIGHT" layoutX="383.0" layoutY="275.0" mnemonicParsing="false" onAction="#shiftSceneRight" style="-fx-background-color: black;" text="→" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+        <Button fx:id="buttonSceneLeft" layoutX="14.0" layoutY="275.0" mnemonicParsing="false" onAction="#shiftSceneLeft" style="-fx-background-color: black;" text="←" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+        <Label fx:id="DistanceDisplay" alignment="CENTER" layoutX="66.0" layoutY="274.0" prefHeight="53.0" prefWidth="320.0" text="DistanceToday" textFill="WHITE">
+            <font>
+                <Font size="36.0" />
+            </font>
+        </Label>
+        <Button fx:id="buttonSceneUp" layoutX="203.0" layoutY="14.0" mnemonicParsing="false" onAction="#shiftSceneUp" style="-fx-background-color: black;" text="↑" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+        <Button fx:id="buttonSceneDown" layoutX="203.0" layoutY="535.0" mnemonicParsing="false" onAction="#shiftSceneDown" style="-fx-background-color: black;" text="↓" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+         <Label alignment="CENTER" layoutX="120.0" layoutY="83.0" prefHeight="141.0" prefWidth="210.0" text="🚙" textFill="WHITE">
+            <font>
+                <Font size="96.0" />
+            </font>
+         </Label>
+    </children>
+</AnchorPane>
