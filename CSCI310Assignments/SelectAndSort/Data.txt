@@ -1,0 +1,502 @@
+Joshua Glass
+Data for quickSelect and select algorithms
+CSCI 310
+=================================================================
+Size: 1048576
+QuickSelect for 413020  th element
+Comparison Count: 588
+
+Size: 1048576
+Medians Select 413020 th element
+Comparison Count: 42134
+==================================================================
+
+==================================================================
+Size: 65536
+QuickSelect for 32567  th element
+Comparison Count: 52
+
+Size: 65536
+Medians Select 32567 th element
+Comparison Count: 327
+=================================================================
+
+=================================================================
+Size: 8192
+QuickSelect for 5277  th element
+Comparison Count: 27
+
+Size: 8192
+Medians Select 5277  th element
+Comparison Count: 109
+=================================================================
+
+=================================================================
+Size: 262144
+QuickSelect for 215736  th element
+Comparison Count: 598
+
+Size: 262144
+Medians Select 215736  th element
+Comparison Count: 7843
+=================================================================
+
+=================================================================
+Size: 32768
+QuickSelect for 3126  th element
+Comparison Count: 7
+
+Size: 32768
+Medians Select 3126  th element
+Comparison Count: 3918
+=================================================================
+
+=================================================================
+Size: 262144
+QuickSelect for 50577  th element
+Comparison Count: 1207
+
+Size: 262144
+Medians Select 50577  th element
+Comparison Count: 3966
+=================================================================
+
+=================================================================
+Size: 32768
+QuickSelect for 21317  th element
+Comparison Count: 136
+
+Size: 32768
+Medians Select 21317  th element
+Comparison Count: 154
+=================================================================
+
+=================================================================
+Size: 131072
+QuickSelect for 82880  th element
+Comparison Count: 405
+
+Size: 131072
+Medians Select 82880  th element
+Comparison Count: 8626
+=================================================================
+
+=================================================================
+Size: 65536
+QuickSelect for 27866  th element
+Comparison Count: 212
+
+Size: 65536
+Medians Select 27866  th element
+Comparison Count: 19822
+=================================================================
+
+=================================================================
+Size: 4096
+QuickSelect for 570 th element
+Comparison Count: 1
+
+Size: 4096
+Medians Select 570 th element
+Comparison Count: 82
+=================================================================
+
+=================================================================
+Size: 65536
+QuickSelect for 20284 th element
+Comparison Count: 35
+
+Size: 65536
+Medians Select 20284 th element
+Comparison Count: 283
+=================================================================
+
+=================================================================
+Size: 524288
+QuickSelect for 200881 th element
+Comparison Count: 1067
+
+Size: 524288
+Medians Select 200881 th element
+Comparison Count: 5288
+=================================================================
+
+=================================================================
+Size: 2048
+QuickSelect for 63 th element
+Comparison Count: 10
+
+Size: 2048
+Medians Select 63 th element
+Comparison Count: 1056
+=================================================================
+
+=================================================================
+Size: 16384
+QuickSelect for 1720 th element
+Comparison Count: 20
+
+Size: 16384
+Medians Select 1720 th element
+Comparison Count: 175
+=================================================================
+
+=================================================================
+Size: 262144
+QuickSelect for 156187 th element
+Comparison Count: 464
+
+Size: 262144
+Medians Select 156187 th element
+Comparison Count: 6590
+=================================================================
+
+=================================================================
+Size: 4096
+QuickSelect for 2939 th element
+Comparison Count: 4
+
+Size: 4096
+Medians Select 2939 th element
+Comparison Count: 94
+=================================================================
+
+=================================================================
+Size: 65536
+QuickSelect for 1611 th element
+Comparison Count: 69
+
+Size: 65536
+Medians Select 1611 th element
+Comparison Count: 307
+=================================================================
+
+=================================================================
+Size: 131072
+QuickSelect for 28506 th element
+Comparison Count: 63
+
+Size: 131072
+Medians Select 28506 th element
+Comparison Count: 639
+=================================================================
+
+=================================================================
+Size: 1048576
+QuickSelect for 201092 th element
+Comparison Count: 477
+
+Size: 1048576
+Medians Select 201092 th element
+Comparison Count: 15737
+=================================================================
+
+=================================================================
+Size: 4096
+QuickSelect for 71 th element
+Comparison Count: 15
+
+Size: 4096
+Medians Select 71 th element
+Comparison Count: 222
+=================================================================
+
+=================================================================
+Size: 1024
+QuickSelect for 216 th element
+Comparison Count: 2
+
+Size: 1024
+Medians Select 216 th element
+Comparison Count: 1405
+=================================================================
+
+=================================================================
+Size: 131072
+QuickSelect for 12378 th element
+Comparison Count: 209
+
+Size: 131072
+Medians Select 12378 th element
+Comparison Count: 39636
+=================================================================
+
+=================================================================
+Size: 2048
+QuickSelect for 1079 th element
+Comparison Count: 12
+
+Size: 2048
+Medians Select 1079 th element
+Comparison Count: 247
+=================================================================
+
+=================================================================
+Size: 2048
+QuickSelect for 1377 th element
+Comparison Count: 2
+
+Size: 2048
+Medians Select 1377 th element
+Comparison Count: 602
+=================================================================
+
+=================================================================
+Size: 65536
+QuickSelect for 25235 th element
+Comparison Count: 144
+
+Size: 65536
+Medians Select 25235 th element
+Comparison Count: 328
+=================================================================
+
+=================================================================
+Size: 16384
+QuickSelect for 13526 th element
+Comparison Count: 13
+
+Size: 16384
+Medians Select 13526 th element
+Comparison Count: 4537
+=================================================================
+
+=================================================================
+Size: 16384
+QuickSelect for 4582 th element
+Comparison Count: 21
+
+Size: 16384
+Medians Select 4582 th element
+Comparison Count: 168
+=================================================================
+
+=================================================================
+Size: 4096
+QuickSelect for 1314 th element
+Comparison Count: 7
+
+Size: 4096
+Medians Select 1314 th element
+Comparison Count: 64
+=================================================================
+
+=================================================================
+Size: 262144
+QuickSelect for 212882 th element
+Comparison Count: 522
+
+Size: 262144
+Medians Select 212882 th element
+Comparison Count: 2623
+=================================================================
+
+=================================================================
+Size: 8192
+QuickSelect for 7601 th element
+Comparison Count: 10
+
+Size: 8192
+Medians Select 7601 th element
+Comparison Count: 51
+=================================================================
+
+=================================================================
+Size: 1024
+QuickSelect for 66 th element
+Comparison Count: 1
+
+Size: 1024
+Medians Select 66 th element
+Comparison Count: 103
+=================================================================
+
+=================================================================
+Size: 131072
+QuickSelect for 45958 th element
+Comparison Count: 236
+
+Size: 131072
+Medians Select 45958 th element
+Comparison Count: 1319
+=================================================================
+
+=================================================================
+Size: 2048
+QuickSelect for 549 th element
+Comparison Count: 1
+
+Size: 2048
+Medians Select 549 th element
+Comparison Count: 80
+=================================================================
+
+=================================================================
+Size: 131072
+QuickSelect for 12876 th element
+Comparison Count: 259
+
+Size: 131072
+Medians Select 12876 th element
+Comparison Count: 633
+=================================================================
+
+=================================================================
+Size: 16384
+QuickSelect for 9931 th element
+Comparison Count: 60
+
+Size: 16384
+Medians Select 9931 th element
+Comparison Count: 253
+=================================================================
+
+=================================================================
+Size: 8192
+QuickSelect for 4312 th element
+Comparison Count: 7
+
+Size: 8192
+Medians Select 4312 th element
+Comparison Count: 115
+=================================================================
+
+=================================================================
+Size: 2048
+QuickSelect for 450 th element
+Comparison Count: 3
+
+Size: 2048
+Medians Select 450 th element
+Comparison Count: 111
+=================================================================
+
+=================================================================
+Size: 524288
+QuickSelect for 166145 th element
+Comparison Count: 2182
+
+Size: 524288
+Medians Select 166145 th element
+Comparison Count: 5232
+=================================================================
+
+=================================================================
+Size: 4096
+QuickSelect for 2649 th element
+Comparison Count: 20
+
+Size: 4096
+Medians Select 2649 th element
+Comparison Count: 117
+=================================================================
+
+=================================================================
+Size: 2048
+QuickSelect for 1508 th element
+Comparison Count: 4
+
+Size: 2048
+Medians Select 1508 th element
+Comparison Count: 123
+=================================================================
+
+=================================================================
+Size: 262144
+QuickSelect for 152648 th element
+Comparison Count: 875
+
+Size: 262144
+Medians Select 152648 th element
+Comparison Count: 1298
+=================================================================
+
+=================================================================
+Size: 2048
+QuickSelect for 1246 th element
+Comparison Count: 2
+
+Size: 2048
+Medians Select 1246 th element
+Comparison Count: 918
+=================================================================
+
+=================================================================
+Size: 16384
+QuickSelect for 15361 th element
+Comparison Count: 45
+
+Size: 16384
+Medians Select 15361 th element
+Comparison Count: 242
+=================================================================
+
+=================================================================
+Size: 262144
+QuickSelect for 129751 th element
+Comparison Count: 958
+
+Size: 262144
+Medians Select 129751 th element
+Comparison Count: 1337
+=================================================================
+
+=================================================================
+Size: 4096
+QuickSelect for 826 th element
+Comparison Count: 6
+
+Size: 4096
+Medians Select 826 th element
+Comparison Count: 357
+=================================================================
+
+=================================================================
+Size: 16384
+QuickSelect for 9184 th element
+Comparison Count: 17
+
+Size: 16384
+Medians Select 9184 th element
+Comparison Count: 78
+=================================================================
+
+=================================================================
+Size: 16384
+QuickSelect for 3100 th element
+Comparison Count: 50
+
+Size: 16384
+Medians Select 3100 th element
+Comparison Count: 67
+=================================================================
+
+=================================================================
+Size: 131072
+QuickSelect for 3787 th element
+Comparison Count: 100
+
+Size: 131072
+Medians Select 3787 th element
+Comparison Count: 630
+=================================================================
+
+=================================================================
+Size: 2048
+QuickSelect for 1362 th element
+Comparison Count: 2
+
+Size: 2048
+Medians Select 1362 th element
+Comparison Count: 1485
+=================================================================
+
+=================================================================
+Size: 16384
+QuickSelect for 8712 th element
+Comparison Count: 70
+
+Size: 16384
+Medians Select 8712 th element
+Comparison Count: 82
+=================================================================
