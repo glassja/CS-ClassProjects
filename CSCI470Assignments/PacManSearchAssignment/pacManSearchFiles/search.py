@@ -88,27 +88,50 @@ def depthFirstSearch(problem):
     # print "Start's successors:", problem.getSuccessors(problem.getStartState())
     # """
     #"*** YOUR CODE HERE ***"
-    from util import Stack
-    
-    start = problem.getStartState()
-    
     visited = []
-    dfsStack = Stack()
-    path = []
+    space = util.Stack()
     
-    dfsStack.push(start)
-    while dfsStack:
-        currState = dfsStack.pop()
-        currCost = 0
-        if currState not in visited:
-            visited.append(currState)
-        if problem.isGoalState(currState):
-            return path
-        else:
-            for state, action, cost in problem.getSuccessors(currState):
-                if not state in visited:
-                    dfsStack.push((state, path + [action], currCost + cost))
-    return path                          
+    startState = problem.getStartState()
+    startPath = []
+    startCost = 0
+    
+    space.push((startState, startPath, startCost))
+    while not space.isEmpty():
+        curState, curPath, curCost = space.pop()
+        
+        if curState in visited:
+            continue
+        
+        if problem.isGoalState(curState):
+            return curPath
+        
+        visited.append(curState)
+        
+        for state, action, cost in problem.getSuccessors(curState):
+            if not state in visited:
+                space.push((state, curPath + [action], curCost + cost))
+    
+    #from util import Stack
+    
+    #start = problem.getStartState()
+    
+    #visited = []
+    #dfsStack = Stack()
+    #path = []
+    
+    #dfsStack.push(start)
+    #while dfsStack:
+     #   currState = dfsStack.pop()
+      #  currCost = 0
+       # if currState not in visited:
+        #    visited.append(currState)
+        #if problem.isGoalState(currState):
+        #    return path
+        #else:
+         #   for state, action, cost in problem.getSuccessors(currState):
+          #      if not state in visited:
+           #         dfsStack.push((state, path + [action], currCost + cost))
+    #return path                          
     
 
 def breadthFirstSearch(problem):
